@@ -12,4 +12,4 @@ class KeywordSimilarity(EvaluationStrategy):
             return 0.0
 
         similarity = len(user_keywords.intersection(response_keywords)) / len(user_keywords)
-        return round(similarity * 100, 2)  # Retorna a similaridade como uma porcentagem
+        return round(similarity * 100, 2)  

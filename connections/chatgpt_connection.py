@@ -15,12 +15,12 @@ class ChatGPTConnection(APIConnection):
         try:
             # Envio da pergunta para a API do ChatGPT
             response = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",  # ou outro modelo como "gpt-4"
+                model="gpt-3.5-turbo",
                 messages=[{"role": "user", "content": question}],
             )
             
             # Extrai a resposta da API
-            message = response['choices'][0]['message']['content'].strip()  # Corrigido para a estrutura atual
+            message = response['choices'][0]['message']['content'].strip() 
             return message
         except Exception as e:
             return f"Erro ao acessar a API: {e}"
