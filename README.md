@@ -2,9 +2,9 @@
 
 ## 📌 Descrição
 Este projeto tem como objetivo conectar-se a modelos de IA como **ChatGPT** e **BERT**, utilizando **padrões de projeto**. Ele permite enviar perguntas para os modelos e avaliar as respostas com diferentes critérios.
-Vídeo (Youtube): https://youtu.be/REzBpWuw0S8
----
 
+---
+Vídeo (Youtube): https://youtu.be/REzBpWuw0S8
 ## 🚀 Configuração do Ambiente
 Para rodar o projeto localmente, siga os passos abaixo:
 
